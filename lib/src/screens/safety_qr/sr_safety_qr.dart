@@ -154,6 +154,7 @@ class SafetyQrScreen extends StatelessWidget {
                             data.categoryIcon,
                             height: 30,
                             width: 30,
+                            fit: BoxFit.cover,
                           ),
                         ),
                         const SizedBox(height: 5),
