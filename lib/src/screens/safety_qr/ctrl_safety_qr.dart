@@ -18,11 +18,15 @@ class SafetyQrController extends GetxController {
     getDarkModePreviousState();
 
     categoryList.value = [
-      CategoryModel(categoryName: 'Car', categoryIcon: Images.boy),
-      CategoryModel(categoryName: 'Bike', categoryIcon: ''),
-      CategoryModel(categoryName: 'Child', categoryIcon: ''),
-      CategoryModel(categoryName: 'Luggage', categoryIcon: ''),
-      CategoryModel(categoryName: 'Pet', categoryIcon: ''),
+      CategoryModel(categoryName: 'Car', categoryIcon: Images.car),
+      CategoryModel(categoryName: 'Bike', categoryIcon: Images.bicycle),
+      CategoryModel(categoryName: 'Child', categoryIcon: Images.child),
+      CategoryModel(categoryName: 'Luggage', categoryIcon: Images.suitcase),
+      CategoryModel(categoryName: 'Pet', categoryIcon: Images.petCare),
+      CategoryModel(categoryName: 'Keys', categoryIcon: Images.keyChain),
+      CategoryModel(categoryName: 'Mobile', categoryIcon: Images.mobile),
+      CategoryModel(categoryName: 'Laptop', categoryIcon: Images.laptop),
+      CategoryModel(categoryName: 'Trolley', categoryIcon: Images.trolley),
     ];
 
     helpLineList.value = [

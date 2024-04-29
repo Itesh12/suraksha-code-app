@@ -150,7 +150,11 @@ class SafetyQrScreen extends StatelessWidget {
                               color: buttonColor,
                             ),
                           ),
-                          child: Image.asset(data.categoryIcon),
+                          child: Image.asset(
+                            data.categoryIcon,
+                            height: 30,
+                            width: 30,
+                          ),
                         ),
                         const SizedBox(height: 5),
                         Text(
